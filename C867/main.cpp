@@ -15,7 +15,7 @@ int main()
     //New student data is used to test creating a new student
     const string newStudentData = "A6,Peter,Mackey,pmack@dump.li, 23,8,6,4,NETWORK";
     //1. Print out to the screen, via your application, the course title, the programming language used, your WGU student ID, and your name. (F1)
-    cout << "C867 - Scripting and Programming - Applications\nProgramming Language: C++\nName: Zayne Mayfield\nWGU Student ID: 000206367" << endl;
+    cout << "C867 - Scripting and Programming - Applications\nProgramming Language: C++\nName: Zayne Mayfield" << endl;
     //Create class roaster from the student data (F2)
     Roster classRoster(studentData);
     //Print the class roster (F4a)
